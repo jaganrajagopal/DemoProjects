@@ -1,0 +1,7 @@
+D:\Projects\MyProjects\Webapps\BasicNetApps\bin\Debug\BasicNetApps.exe.config
+D:\Projects\MyProjects\Webapps\BasicNetApps\bin\Debug\BasicNetApps.exe
+D:\Projects\MyProjects\Webapps\BasicNetApps\bin\Debug\BasicNetApps.pdb
+D:\Projects\MyProjects\Webapps\BasicNetApps\obj\Debug\BasicNetApps.csprojAssemblyReference.cache
+D:\Projects\MyProjects\Webapps\BasicNetApps\obj\Debug\BasicNetApps.csproj.CoreCompileInputs.cache
+D:\Projects\MyProjects\Webapps\BasicNetApps\obj\Debug\BasicNetApps.exe
+D:\Projects\MyProjects\Webapps\BasicNetApps\obj\Debug\BasicNetApps.pdb

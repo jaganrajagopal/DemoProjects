@@ -1,0 +1,9 @@
+D:\Projects\MyProjects\Webapps\MyClassLibrary\bin\Debug\netstandard2.0\MyClassLibrary.deps.json
+D:\Projects\MyProjects\Webapps\MyClassLibrary\bin\Debug\netstandard2.0\MyClassLibrary.dll
+D:\Projects\MyProjects\Webapps\MyClassLibrary\bin\Debug\netstandard2.0\MyClassLibrary.pdb
+D:\Projects\MyProjects\Webapps\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\MyProjects\Webapps\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.AssemblyInfoInputs.cache
+D:\Projects\MyProjects\Webapps\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.AssemblyInfo.cs
+D:\Projects\MyProjects\Webapps\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.dll
+D:\Projects\MyProjects\Webapps\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.pdb
+D:\Projects\MyProjects\Webapps\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.csprojAssemblyReference.cache
