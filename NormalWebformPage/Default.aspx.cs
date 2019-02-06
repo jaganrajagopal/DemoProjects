@@ -16,6 +16,11 @@ namespace NormalWebformPage
             // MyClassLibrary.Class1 obj = new 
             MyClassLibrary.subClassLibary.Class2 obj = new MyClassLibrary.subClassLibary.Class2();
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Write("Button clicked");
+        }
     }
 
   

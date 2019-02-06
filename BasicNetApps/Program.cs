@@ -21,14 +21,27 @@ namespace BasicNetApps
 
             // TestNamespace
 
-            SampleDelegate objSample = new SampleDelegate();
-            //calling 
-            SampleDelegate.MyArithematic del = new SampleDelegate.MyArithematic(objSample.Add);
-            int result=del(4, 5);
-            // SampleDelegate.MyArithematic del2 = new SampleDelegate.MyArithematic(objSample.Subtract);
-            //int subtract = del2(5, 3);
-            del += new SampleDelegate.MyArithematic(objSample.Subtract);
-            int substract=del(3, 4);
+            //SampleDelegate objSample = new SampleDelegate();
+            ////calling 
+            //SampleDelegate.MyArithematic del = new SampleDelegate.MyArithematic(objSample.Add);
+            //int result=del(4, 5);
+            //// SampleDelegate.MyArithematic del2 = new SampleDelegate.MyArithematic(objSample.Subtract);
+            ////int subtract = del2(5, 3);
+            //del += new SampleDelegate.MyArithematic(objSample.Subtract);
+            //int substract=del(3, 4);
+            //try
+            //{
+
+            //    ErrorHandling objError = new ErrorHandling();
+            //    objError.Display(1);
+            //}
+            //catch(Exception ex)
+            //{
+            //    Console.WriteLine("Error Occurred due to " + ex.Message);
+            //}
+
+            Array objArray = new Array();
+            objArray.ArrayMethod();
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
