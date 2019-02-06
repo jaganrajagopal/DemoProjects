@@ -36,6 +36,9 @@
             <p>
                 <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
             </p>
+            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+
+            <asp:CheckBox ID="chkButton" runat="server" Text="test" ClientIDMode="Static" />
         </div>
     </div>
 
