@@ -41,7 +41,8 @@ namespace BasicNetApps
             //}
 
             Array objArray = new Array();
-            objArray.ArrayMethod();
+            //objArray.ArrayMethod();
+            objArray.MultipleArryMethod();
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
