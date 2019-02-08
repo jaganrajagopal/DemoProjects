@@ -16,10 +16,10 @@ namespace BasicNetApps
             arryNumber[2] = 45;
             arryNumber[3] = 67;
 
-            string[] employeelist = new string[4]
-            {
-              "ram","kiran","raj","john","scott"
-            };
+            //string[] employeelist = new string[4]
+            //{
+            //  "ram","kiran","raj","john","scott"
+            //};
             //print 
             foreach (var mynumber in arryNumber)
             {

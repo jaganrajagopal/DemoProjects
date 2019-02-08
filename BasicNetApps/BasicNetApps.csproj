@@ -83,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array.cs" />
+    <Compile Include="CollectionList.cs" />
     <Compile Include="Delegate.cs" />
     <Compile Include="ErrorHandling.cs" />
     <Compile Include="Program.cs" />

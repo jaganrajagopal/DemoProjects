@@ -42,7 +42,12 @@ namespace BasicNetApps
 
             Array objArray = new Array();
             //objArray.ArrayMethod();
-            objArray.MultipleArryMethod();
+            //objArray.MultipleArryMethod();
+            //objArray.ArrayListMethod();
+            CollectionList objcoll = new CollectionList();
+            // objcoll.ArrayListMethod();
+            objcoll.HastTableMethod();
+
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
