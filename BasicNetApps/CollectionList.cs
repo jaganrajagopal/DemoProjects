@@ -62,5 +62,81 @@ namespace BasicNetApps
                 myvalue=myHastData[data].ToString();
             }
         }
+        public void sortedListData()
+        {
+            SortedList listsort = new SortedList();
+            listsort.Add("23", 34);
+            listsort.Add("34", "Mydata");
+            string value = "";
+            if (listsort.ContainsKey(23) == true)
+            {
+                value = listsort[23].ToString();
+            }
+
+        }
+        public void StackOpeation()
+        {
+            //Last in ,first out
+            Stack liststack = new Stack();
+            liststack.Push("A");
+            liststack.Push(23);
+            liststack.Push("C");
+            liststack.Push("D");
+            var myclone = liststack.Clone();
+            foreach (var mydata in liststack)
+            {
+                Console.WriteLine("The value" + mydata + " Type" + liststack.GetType().ToString());
+
+            }
+            liststack.Pop();
+            liststack.Clear();
+        }
+           
+        public void QueueList()
+        {
+            Queue listQueue = new Queue();
+            listQueue.Enqueue(1);
+            listQueue.Enqueue(2);
+            listQueue.Enqueue(3);
+            //Iteration list
+
+            foreach(var mydata in listQueue)
+            {
+                Console.WriteLine("The Number:" + mydata);
+            }
+            //Removing the Queue from list (first in and first out)
+            listQueue.Dequeue();
+            listQueue.Dequeue();
+            listQueue.Clear();
+        }
+
+        public void BitArray()
+        {
+            // Create BitArray from the array.
+            BitArray bitArray = new BitArray(12);
+            // Set three bits to 1.
+            bitArray[3] = true;     // You can set the bits with the indexer.
+            bitArray[5] = true;
+            //bitArray[10] = true;
+            bitArray.Set(10, true); // You can  the total of all bits (1s and 0s).
+            Console.WriteLine("--- Total bits ---");
+            Console.WriteLine(bitArray.Count);
+
+            // You can loop to count set bits.
+            Console.WriteLine("--- Total bits set to 1 ---");
+            Console.WriteLine(CountBitArray(bitArray));
+        }
+        static int CountBitArray(BitArray bitArray)
+        {
+            int count = 0;
+            foreach (bool bit in bitArray)
+            {
+                if (bit)
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
     }
 }

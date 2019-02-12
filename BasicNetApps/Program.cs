@@ -46,7 +46,10 @@ namespace BasicNetApps
             //objArray.ArrayListMethod();
             CollectionList objcoll = new CollectionList();
             // objcoll.ArrayListMethod();
-            objcoll.HastTableMethod();
+            //objcoll.HastTableMethod();
+            //objcoll.StackOpeation();
+            //objcoll.QueueList();
+            objcoll.BitArray();
 
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
