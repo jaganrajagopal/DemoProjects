@@ -49,7 +49,11 @@ namespace BasicNetApps
             //objcoll.HastTableMethod();
             //objcoll.StackOpeation();
             //objcoll.QueueList();
-            objcoll.BitArray();
+            // objcoll.BitArray();
+            GenericList objGeneric = new GenericList();
+            // objGeneric.DictionaryList();
+            objGeneric.CustomList();
+
 
 
             // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
