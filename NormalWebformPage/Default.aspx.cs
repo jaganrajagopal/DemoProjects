@@ -42,28 +42,28 @@ namespace NormalWebformPage
             using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString))
             {
                 SqlCommand cmd = new SqlCommand();
-                cmd.CommandText = "select count(1) from emp";
+                cmd.CommandText = "select * from emp";
                 cmd.Connection = conn;
                 cmd.CommandType = System.Data.CommandType.Text;
                 conn.Open();
-                // SqlDataAdapter da = new SqlDataAdapter(cmd);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
                // SqlDataReader dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
-                int count = (int)cmd.ExecuteScalar();
-                string empid = "";
-                string empname = "";
+               // int count = (int)cmd.ExecuteScalar();
+                //string empid = "";
+                //string empname = "";
                 //while (dr.Read())
                 //{
                 //   empid= empid + " - "+  dr[0].ToString();
                 //   empname = empname + "- " + dr[1].ToString();
                 //  //  dr.nex
                 //}
-               // DataSet ds = new DataSet();
-                //da.Fill(ds,"employee");
+                DataSet ds = new DataSet();
+                da.Fill(ds, "employee");
                 conn.Close();
-                //conn.Dispose();
-                //GridView1.DataSource = ds.Tables["employee"];
-                //GridView1.DataBind();
-                //GridView1.Visible = true;
+                conn.Dispose();
+                GridView1.DataSource = ds.Tables["employee"];
+                GridView1.DataBind();
+                GridView1.Visible = true;
 
             }
             //ds=   cmd.ExecuteNonQuery

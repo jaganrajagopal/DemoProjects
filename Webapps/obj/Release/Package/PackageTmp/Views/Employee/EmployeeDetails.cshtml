@@ -1,0 +1,42 @@
+﻿@model Webapps.employeeList
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>EmployeeDetails</title>
+</head>
+<body>
+    <div>
+        <h4>employeeList</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.empName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.empName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.PhoneNumber)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.empId }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

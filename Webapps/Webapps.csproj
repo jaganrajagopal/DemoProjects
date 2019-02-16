@@ -176,6 +176,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Customer.cs">
+      <DependentUpon>ProductDb.tt</DependentUpon>
+    </Compile>
     <Compile Include="departmentlist.cs">
       <DependentUpon>Employeedata.tt</DependentUpon>
     </Compile>
@@ -203,7 +207,34 @@
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\EmployeeContext.cs" />
+    <Compile Include="Order.cs">
+      <DependentUpon>ProductDb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderItem.cs">
+      <DependentUpon>ProductDb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>ProductDb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDb.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductDb.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDb.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductDb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDb.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductDb.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Supplier.cs">
+      <DependentUpon>ProductDb.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -214,6 +245,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="ProductDb.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ProductDb.edmx</DependentUpon>
+      <LastGenOutput>ProductDb.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ProductDb.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ProductDb.edmx</DependentUpon>
+      <LastGenOutput>ProductDb.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <EntityDeploy Include="Employeedata.edmx">
@@ -233,6 +274,14 @@
       <DependentUpon>Employeedata.edmx</DependentUpon>
       <LastGenOutput>Employeedata.cs</LastGenOutput>
     </Content>
+    <EntityDeploy Include="ProductDb.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ProductDb.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="ProductDb.edmx.diagram">
+      <DependentUpon>ProductDb.edmx</DependentUpon>
+    </Content>
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -261,6 +310,11 @@
     <Content Include="Views\Employee\EmployeeDetails.cshtml" />
     <Content Include="Views\Employee\Create.cshtml" />
     <Content Include="Views\Employee\Index.cshtml" />
+    <Content Include="Views\Products\Create.cshtml" />
+    <Content Include="Views\Products\Delete.cshtml" />
+    <Content Include="Views\Products\Details.cshtml" />
+    <Content Include="Views\Products\Edit.cshtml" />
+    <Content Include="Views\Products\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
