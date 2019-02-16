@@ -16,3 +16,12 @@ C:\Users\admin\source\repos\DemoProjects\MyClassLibrary\obj\Debug\netstandard2.0
 C:\Users\admin\source\repos\DemoProjects\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.AssemblyInfo.cs
 C:\Users\admin\source\repos\DemoProjects\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.dll
 C:\Users\admin\source\repos\DemoProjects\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.pdb
+D:\Projects\DotnetProjectSample\MyClassLibrary\bin\Debug\netstandard2.0\MyClassLibrary.deps.json
+D:\Projects\DotnetProjectSample\MyClassLibrary\bin\Debug\netstandard2.0\MyClassLibrary.dll
+D:\Projects\DotnetProjectSample\MyClassLibrary\bin\Debug\netstandard2.0\MyClassLibrary.pdb
+D:\Projects\DotnetProjectSample\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.csprojAssemblyReference.cache
+D:\Projects\DotnetProjectSample\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\DotnetProjectSample\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.AssemblyInfoInputs.cache
+D:\Projects\DotnetProjectSample\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.AssemblyInfo.cs
+D:\Projects\DotnetProjectSample\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.dll
+D:\Projects\DotnetProjectSample\MyClassLibrary\obj\Debug\netstandard2.0\MyClassLibrary.pdb

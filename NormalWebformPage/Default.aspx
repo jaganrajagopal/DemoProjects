@@ -6,7 +6,10 @@
         <h1>ASP.NET</h1>
         <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-    </div>
+        <asp:GridView ID="GridView1" runat="server"  Visible="false">
+        </asp:GridView>
+        <asp:Button ID="btn" text="Databind" OnClick="bind" runat="server" />
+     </div>
 
     <div class="row">
         <div class="col-md-4">
@@ -19,6 +22,7 @@
                 <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
             </p>
         </div>
+
         <div class="col-md-4">
             <h2>Get more libraries</h2>
             <p>
@@ -36,7 +40,7 @@
             <p>
                 <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
             </p>
-            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="DataBind" />
 
             <asp:CheckBox ID="chkButton" runat="server" Text="test" ClientIDMode="Static" />
         </div>
