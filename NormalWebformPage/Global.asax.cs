@@ -17,5 +17,14 @@ namespace NormalWebformPage
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+        void application_end()
+        {
+            // destory session and cloing 
+        }
+       void session_start()
+        {
+
+        }
+        //void session_end()
     }
 }

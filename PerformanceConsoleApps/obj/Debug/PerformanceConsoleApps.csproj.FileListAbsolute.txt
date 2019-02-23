@@ -1,0 +1,11 @@
+D:\Projects\DotnetProjectSample\PerformanceConsoleApps\bin\Debug\PerformanceConsoleApps.exe.config
+D:\Projects\DotnetProjectSample\PerformanceConsoleApps\bin\Debug\PerformanceConsoleApps.exe.manifest
+D:\Projects\DotnetProjectSample\PerformanceConsoleApps\bin\Debug\PerformanceConsoleApps.application
+D:\Projects\DotnetProjectSample\PerformanceConsoleApps\bin\Debug\PerformanceConsoleApps.exe
+D:\Projects\DotnetProjectSample\PerformanceConsoleApps\bin\Debug\PerformanceConsoleApps.pdb
+D:\Projects\DotnetProjectSample\PerformanceConsoleApps\obj\Debug\PerformanceConsoleApps.csproj.CoreCompileInputs.cache
+D:\Projects\DotnetProjectSample\PerformanceConsoleApps\obj\Debug\PerformanceConsoleApps.exe.manifest
+D:\Projects\DotnetProjectSample\PerformanceConsoleApps\obj\Debug\PerformanceConsoleApps.application
+D:\Projects\DotnetProjectSample\PerformanceConsoleApps\obj\Debug\PerformanceConsoleApps.exe
+D:\Projects\DotnetProjectSample\PerformanceConsoleApps\obj\Debug\PerformanceConsoleApps.pdb
+D:\Projects\DotnetProjectSample\PerformanceConsoleApps\obj\Debug\PerformanceConsoleApps.csprojAssemblyReference.cache
