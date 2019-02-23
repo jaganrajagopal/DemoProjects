@@ -13,6 +13,8 @@
             <asp:Label ID="lblData" runat="server" value="data"></asp:Label>
             <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
         </div>
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:FileUpload ID="FileUpload1" runat="server" />
     </form>
 </body>
 </html>

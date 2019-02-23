@@ -13,6 +13,8 @@ namespace NormalWebformPage
     {
         void Application_Start(object sender, EventArgs e)
         {
+            HttpApplication objApp = new HttpApplication();
+            
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
@@ -23,7 +25,7 @@ namespace NormalWebformPage
         }
        void session_start()
         {
-
+           HttpServerUtility objsesssion = new HttpServerUtility()
         }
         //void session_end()
     }

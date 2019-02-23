@@ -11,13 +11,21 @@ namespace NormalWebformPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Page.IsPostBack)
+            {
+                //Database connection 
+            }
             //if (!String.IsNullOrEmpty(txtdata.Text))
             //{
             //   // HttpServerUtility mydata = new HttpServerUtility()
                
-            //        System.Web.HttpRequest mybew = new System.Web.HttpRequest("asdf","Asdf","ASdf"):
-            //  System.IO.TextWriter data = new System.IO.TextWriter();
-            //    System.Web.HttpResponse myresponse = new System.Web.HttpResponse();
+            //   System.Web.HttpRequest mybew = new System.Web.HttpRequest("asdf","Asdf","ASdf"):
+            //mybew.ServerVariables["servname"]
+            ////mybew.
+
+            // System.IO.TextWriter data = new System.IO.TextWriter();
+            // System.Web.HttpResponse myresponse = new System.Web.HttpResponse();
+            //myresponse.
             //    ListBox1.BackColor
             //    // Access the HttpServerUtility methods through
             //    // the intrinsic Server object.
@@ -31,9 +39,12 @@ namespace NormalWebformPage
 //Create or re - create dynamic controls.
 //Set a master page dynamically.
 //Set the Theme property dynamically.
+ 
         }
         protected void page_init(object sender, EventArgs e)
         {
+            // ListBox1.BorderWidth.Value = 10;
+            lblData.Text = "HI";
 //            This event fires after each control has been initialized.
 //Each control's UniqueID is set and any skin settings have been applied.
 //Use this event to read or initialize control properties.
@@ -42,6 +53,7 @@ namespace NormalWebformPage
 
         protected void page_Initcomplete(object sender,EventArgs e)
         {
+            lblData.Text = "Page completed";
 //            Until now the viewstate values are not yet loaded, hence you can use this event to make changes to the view state that you want to ensure are persisted after the next postback.
 //Raised by the Page object.
 //Use this event for processing tasks that require all initialization to be complete.
