@@ -8,4 +8,3 @@ D:\Projects\DotnetProjectSample\PerformanceConsoleApps\obj\Debug\PerformanceCons
 D:\Projects\DotnetProjectSample\PerformanceConsoleApps\obj\Debug\PerformanceConsoleApps.application
 D:\Projects\DotnetProjectSample\PerformanceConsoleApps\obj\Debug\PerformanceConsoleApps.exe
 D:\Projects\DotnetProjectSample\PerformanceConsoleApps\obj\Debug\PerformanceConsoleApps.pdb
-D:\Projects\DotnetProjectSample\PerformanceConsoleApps\obj\Debug\PerformanceConsoleApps.csprojAssemblyReference.cache

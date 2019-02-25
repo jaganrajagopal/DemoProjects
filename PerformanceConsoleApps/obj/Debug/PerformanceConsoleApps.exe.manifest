@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PerformanceConsoleApps.exe" size="11176">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PerformanceConsoleApps.exe" size="12200">
       <assemblyIdentity name="PerformanceConsoleApps" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iri/zEnrBFEfAnDRTkxAp/Xi5z7FyzQ2IaO3PBJxiKM=</dsig:DigestValue>
+        <dsig:DigestValue>A3hkcofjO6nxRlwfhXBCHxPIbnXIF1fgA9HggiGoacM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
