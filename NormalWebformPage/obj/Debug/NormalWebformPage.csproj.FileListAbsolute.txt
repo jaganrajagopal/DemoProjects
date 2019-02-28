@@ -555,3 +555,5 @@ D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Debug\NormalWebformPage.cs
 D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Debug\NormalWebformPage.dll
 D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Debug\NormalWebformPage.pdb
 D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Debug\NormalWebformPage.csprojAssemblyReference.cache
+D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Debug\NormalWebformPage.Language.resources
+D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Debug\NormalWebformPage.csproj.GenerateResource.cache

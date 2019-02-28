@@ -15,14 +15,25 @@ namespace NormalWebformPage
             {
                 //Database connection 
             }
+            MultiView1.ActiveViewIndex = 0;// first view
+           // MultiView1.ActiveViewIndex = 2;// second view 
+            //MultiView1.ActiveViewIndex = 1;
+            // MultiView1.vi
             //if (!String.IsNullOrEmpty(txtdata.Text))
             //{
             //   // HttpServerUtility mydata = new HttpServerUtility()
-               
+
             //   System.Web.HttpRequest mybew = new System.Web.HttpRequest("asdf","Asdf","ASdf"):
             //mybew.ServerVariables["servname"]
             ////mybew.
-
+            ///
+            List<string> mydata = new List<string>();
+            mydata.Add("Product1");
+            mydata.Add("Product2");
+            mydata.Add("Product3");
+            literalData.Text = " Just Binding at run time";
+            listBoxItems.DataSource = mydata;
+            listBoxItems.DataBind();
             // System.IO.TextWriter data = new System.IO.TextWriter();
             // System.Web.HttpResponse myresponse = new System.Web.HttpResponse();
             //myresponse.
@@ -30,7 +41,7 @@ namespace NormalWebformPage
             //    // Access the HttpServerUtility methods through
             //    // the intrinsic Server object.
             //    lblData.Text = "Welcome, " + Server.HtmlEncode(lblData.Text) + ". <br/> The url is " + Server.UrlEncode(Request.Url.ToString())
-   //}
+            //}
         }
 
         protected void page_preinit(object sender,EventArgs e)
@@ -120,6 +131,11 @@ namespace NormalWebformPage
             // Bussiness
 
             //connection 
+        }
+        //Onclick of view1 - Next - I am loading the second view - Course details
+        protected void Next_View(object sender, EventArgs e)
+        {
+            MultiView1.ActiveViewIndex = 1;
         }
     }
 }

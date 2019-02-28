@@ -475,8 +475,8 @@ D:\Projects\DotnetProjectSample\Webapps\bin\Antlr3.Runtime.pdb
 D:\Projects\DotnetProjectSample\Webapps\bin\System.Diagnostics.DiagnosticSource.xml
 D:\Projects\DotnetProjectSample\Webapps\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 D:\Projects\DotnetProjectSample\Webapps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Projects\DotnetProjectSample\Webapps\obj\Debug\Webapps.csprojAssemblyReference.cache
 D:\Projects\DotnetProjectSample\Webapps\obj\Debug\Webapps.csproj.CoreCompileInputs.cache
 D:\Projects\DotnetProjectSample\Webapps\obj\Debug\Webapps.csproj.CopyComplete
 D:\Projects\DotnetProjectSample\Webapps\obj\Debug\Webapps.dll
 D:\Projects\DotnetProjectSample\Webapps\obj\Debug\Webapps.pdb
+D:\Projects\DotnetProjectSample\Webapps\obj\Debug\Webapps.csprojAssemblyReference.cache
