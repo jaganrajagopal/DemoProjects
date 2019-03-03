@@ -155,6 +155,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="BookaSchemaData.xsl" />
+    <Content Include="Books.xml" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -175,6 +177,10 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Google.jpg" />
     <Content Include="Webcontrol.aspx" />
+    <Content Include="WebcontrolPage.aspx" />
+    <None Include="BookSchema.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Instricpage.aspx" />
@@ -280,6 +286,13 @@
     </Compile>
     <Compile Include="Webcontrol.aspx.designer.cs">
       <DependentUpon>Webcontrol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebcontrolPage.aspx.cs">
+      <DependentUpon>WebcontrolPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebcontrolPage.aspx.designer.cs">
+      <DependentUpon>WebcontrolPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
