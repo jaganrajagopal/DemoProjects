@@ -10,12 +10,13 @@ namespace Webapps.Controllers
     public class EmployeeController : Controller
     {
         // GET: Employee
-        EmployeeDbEntities dbEntitles = new EmployeeDbEntities();
+        EmployeeDbEntitiesRecent dbEntitles = new EmployeeDbEntitiesRecent();
+        
         public ActionResult Index()
         {
             return View(dbEntitles.employeeLists.ToList());
         }
-
+        [ActionName("Details")]
         public ActionResult EmployeeDetails(int id)
         {
            
@@ -44,13 +45,13 @@ namespace Webapps.Controllers
         [HttpPost]
         public ActionResult Create(FormCollection frm)
         {
-            departmentlist empList = new departmentlist();
-            empList.deptid =int.Parse( frm["deptid"]);
+            departmentList empList = new departmentList();
+            empList.deptId =int.Parse( frm["deptid"]);
             empList.departmentName = frm["departmentName"];
-            empList.empid = frm["empid"];
+            empList.empId = int.Parse(frm["empid"]);
             if (ModelState.IsValid)
             {
-                dbEntitles.departmentlists.Add(empList);
+                dbEntitles.departmentLists.Add(empList);
                 dbEntitles.SaveChanges();
             }
             return RedirectToAction("Index");

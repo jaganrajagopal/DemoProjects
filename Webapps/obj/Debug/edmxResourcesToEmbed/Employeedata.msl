@@ -10,12 +10,12 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="departmentlists">
-      <EntityTypeMapping TypeName="EmployeeDbModel.departmentlist">
-        <MappingFragment StoreEntitySet="departmentlist">
-          <ScalarProperty Name="empid" ColumnName="empid" />
+    <EntitySetMapping Name="departmentList1">
+      <EntityTypeMapping TypeName="EmployeeDbModel.departmentList1">
+        <MappingFragment StoreEntitySet="departmentList">
+          <ScalarProperty Name="empId" ColumnName="empId" />
           <ScalarProperty Name="departmentName" ColumnName="departmentName" />
-          <ScalarProperty Name="deptid" ColumnName="deptid" />
+          <ScalarProperty Name="deptId" ColumnName="deptId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

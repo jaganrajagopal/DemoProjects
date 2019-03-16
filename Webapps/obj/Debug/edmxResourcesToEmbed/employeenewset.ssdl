@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EmployeeDbModelRecent.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="departmentList">
+    <Key>
+      <PropertyRef Name="deptId" />
+    </Key>
+    <Property Name="deptId" Type="int" Nullable="false" />
+    <Property Name="departmentName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="empId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="employeeList">
+    <Key>
+      <PropertyRef Name="empId" />
+    </Key>
+    <Property Name="empId" Type="int" Nullable="false" />
+    <Property Name="empName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PhoneNumber" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="EmployeeDbModelRecentStoreContainer">
+    <EntitySet Name="departmentList" EntityType="Self.departmentList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employeeList" EntityType="Self.employeeList" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

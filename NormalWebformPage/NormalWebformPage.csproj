@@ -165,6 +165,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="DataBinding.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="DynamicloadUsercontrol.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -177,11 +178,17 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Google.jpg" />
+    <Content Include="Myusercontrol.ascx" />
+    <Content Include="Repeater.aspx" />
+    <Content Include="RequiredFieldValidator.aspx" />
+    <Content Include="ReuseMypage.aspx" />
     <Content Include="Webcontrol.aspx" />
     <Content Include="WebcontrolPage.aspx" />
+    <Content Include="webformMaster.aspx" />
     <None Include="BookSchema.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="MycustomMaster.Master" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Instricpage.aspx" />
@@ -250,6 +257,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DynamicloadUsercontrol.aspx.cs">
+      <DependentUpon>DynamicloadUsercontrol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DynamicloadUsercontrol.aspx.designer.cs">
+      <DependentUpon>DynamicloadUsercontrol.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -266,7 +280,42 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Language.resx</DependentUpon>
     </Compile>
+    <Compile Include="MycustomMaster.Master.cs">
+      <DependentUpon>MycustomMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MycustomMaster.Master.designer.cs">
+      <DependentUpon>MycustomMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Myusercontrol.ascx.cs">
+      <DependentUpon>Myusercontrol.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Myusercontrol.ascx.designer.cs">
+      <DependentUpon>Myusercontrol.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repeater.aspx.cs">
+      <DependentUpon>Repeater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Repeater.aspx.designer.cs">
+      <DependentUpon>Repeater.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RequiredFieldValidator.aspx.cs">
+      <DependentUpon>RequiredFieldValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RequiredFieldValidator.aspx.designer.cs">
+      <DependentUpon>RequiredFieldValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReuseMypage.aspx.cs">
+      <DependentUpon>ReuseMypage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReuseMypage.aspx.designer.cs">
+      <DependentUpon>ReuseMypage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -301,6 +350,13 @@
     </Compile>
     <Compile Include="WebcontrolPage.aspx.designer.cs">
       <DependentUpon>WebcontrolPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webformMaster.aspx.cs">
+      <DependentUpon>webformMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webformMaster.aspx.designer.cs">
+      <DependentUpon>webformMaster.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

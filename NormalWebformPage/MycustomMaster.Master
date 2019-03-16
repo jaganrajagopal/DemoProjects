@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MycustomMaster.master.cs" Inherits="NormalWebformPage.MycustomMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <h2 style="text-align:center">Header Section
+            
+        </h2>
+        <nav id="nav" style="padding:5px;">  
+            <ul>  
+                <li><a href="home.aspx">Home</a></li>  
+                <li><a href="#">About</a></li>  
+                <li><a href="#">Article</a></li>  
+                <li><a href="#">Contact</a></li>  
+            </ul>  
+</nav>
+        <div>
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+            </asp:ContentPlaceHolder>
+        </div>
+        <div >
+            <footer id="myfooter" style="background-color: #C7EFCF; text-align:center; padding-bottom: 5%; font-size: 20px;">Footer Section page</footer>
+        </div>
+    </form>
+</body>
+</html>

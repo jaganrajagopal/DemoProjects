@@ -22,6 +22,7 @@ namespace NormalWebformPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           btn.Text = Session["username"].ToString();
             // MyClassLibrary.Class1 obj = new 
             MyClassLibrary.subClassLibary.Class2 obj = new MyClassLibrary.subClassLibary.Class2();
         }

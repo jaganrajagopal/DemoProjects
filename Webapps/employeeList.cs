@@ -16,6 +16,6 @@ namespace Webapps
     {
         public int empId { get; set; }
         public string empName { get; set; }
-        public Nullable<int> PhoneNumber { get; set; }
+        public int PhoneNumber { get; set; }
     }
 }

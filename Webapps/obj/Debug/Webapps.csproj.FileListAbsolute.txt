@@ -479,4 +479,10 @@ D:\Projects\DotnetProjectSample\Webapps\obj\Debug\Webapps.csproj.CoreCompileInpu
 D:\Projects\DotnetProjectSample\Webapps\obj\Debug\Webapps.csproj.CopyComplete
 D:\Projects\DotnetProjectSample\Webapps\obj\Debug\Webapps.dll
 D:\Projects\DotnetProjectSample\Webapps\obj\Debug\Webapps.pdb
+D:\Projects\DotnetProjectSample\Webapps\bin\System.Net.Http.Formatting.dll
+D:\Projects\DotnetProjectSample\Webapps\bin\System.Web.Http.dll
+D:\Projects\DotnetProjectSample\Webapps\bin\System.Web.Http.WebHost.dll
+D:\Projects\DotnetProjectSample\Webapps\bin\System.Net.Http.Formatting.xml
+D:\Projects\DotnetProjectSample\Webapps\bin\System.Web.Http.xml
+D:\Projects\DotnetProjectSample\Webapps\bin\System.Web.Http.WebHost.xml
 D:\Projects\DotnetProjectSample\Webapps\obj\Debug\Webapps.csprojAssemblyReference.cache

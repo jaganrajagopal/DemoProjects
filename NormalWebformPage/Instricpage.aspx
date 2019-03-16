@@ -38,7 +38,7 @@
         <asp:Literal ID="literalData" Text="Running Now"  runat="server"></asp:Literal>
          <asp:MultiView ID="MultiView1" runat="server" Visible="true">  
   
-                <asp:View ID="View1" runat="server"  > <%- --0 -- %>
+                <asp:View ID="View1" runat="server"  > 
                     <table style="width: 100%;">  
                         <tr>  
                             <td class="auto-style4"><strong>Student Details</strong></td>  

@@ -190,3 +190,5 @@ D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Release\NormalWebformPage.
 D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Release\NormalWebformPage.csproj.CopyComplete
 D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Release\NormalWebformPage.dll
 D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Release\NormalWebformPage.pdb
+D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Release\NormalWebformPage.Language.resources
+D:\Projects\DotnetProjectSample\NormalWebformPage\obj\Release\NormalWebformPage.csproj.GenerateResource.cache

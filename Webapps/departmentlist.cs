@@ -12,10 +12,10 @@ namespace Webapps
     using System;
     using System.Collections.Generic;
     
-    public partial class departmentlist
+    public partial class departmentList
     {
-        public int deptid { get; set; }
+        public int deptId { get; set; }
         public string departmentName { get; set; }
-        public string empid { get; set; }
+        public int empId { get; set; }
     }
 }
