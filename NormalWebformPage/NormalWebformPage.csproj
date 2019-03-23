@@ -87,6 +87,8 @@
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Text.Encodings.Web, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Text.Encodings.Web.4.5.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
     </Reference>
@@ -155,8 +157,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AddOperationPage.aspx" />
     <Content Include="BookaSchemaData.xsl" />
     <Content Include="Books.xml" />
+    <Content Include="Column1.master" />
+    <Content Include="Column2.master" />
+    <None Include="Connected Services\WebserviceCalls\configuration91.svcinfo" />
+    <None Include="Connected Services\WebserviceCalls\configuration.svcinfo" />
+    <Content Include="Connected Services\WebserviceCalls\NormalWebformPage.WebserviceCalls.HelloWorldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\WebserviceCalls\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -165,6 +179,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="DataBinding.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="demofileuploadoption.aspx" />
+    <Content Include="DemoNestedMasterPage.aspx" />
     <Content Include="DynamicloadUsercontrol.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -179,6 +195,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Google.jpg" />
     <Content Include="Myusercontrol.ascx" />
+    <Content Include="NestedsampleMaster.aspx" />
     <Content Include="Repeater.aspx" />
     <Content Include="RequiredFieldValidator.aspx" />
     <Content Include="ReuseMypage.aspx" />
@@ -189,6 +206,11 @@
       <SubType>Designer</SubType>
     </None>
     <Content Include="MycustomMaster.Master" />
+    <Content Include="MainmasterSample.Master" />
+    <Content Include="NestedMasterPage.master" />
+    <None Include="Connected Services\WebserviceCalls\Myservice.wsdl" />
+    <Content Include="NestedColumn3.master" />
+    <Content Include="NestedColumn4.master" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Instricpage.aspx" />
@@ -227,6 +249,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddOperationPage.aspx.cs">
+      <DependentUpon>AddOperationPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddOperationPage.aspx.designer.cs">
+      <DependentUpon>AddOperationPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -236,6 +265,25 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Column1.master.cs">
+      <DependentUpon>Column1.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Column1.master.designer.cs">
+      <DependentUpon>Column1.master</DependentUpon>
+    </Compile>
+    <Compile Include="Column2.master.cs">
+      <DependentUpon>Column2.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Column2.master.designer.cs">
+      <DependentUpon>Column2.master</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\WebserviceCalls\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -256,6 +304,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demofileuploadoption.aspx.cs">
+      <DependentUpon>demofileuploadoption.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demofileuploadoption.aspx.designer.cs">
+      <DependentUpon>demofileuploadoption.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DemoNestedMasterPage.aspx.cs">
+      <DependentUpon>DemoNestedMasterPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoNestedMasterPage.aspx.designer.cs">
+      <DependentUpon>DemoNestedMasterPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="DynamicloadUsercontrol.aspx.cs">
       <DependentUpon>DynamicloadUsercontrol.aspx</DependentUpon>
@@ -280,6 +342,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Language.resx</DependentUpon>
     </Compile>
+    <Compile Include="MainmasterSample.Master.cs">
+      <DependentUpon>MainmasterSample.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainmasterSample.Master.designer.cs">
+      <DependentUpon>MainmasterSample.Master</DependentUpon>
+    </Compile>
     <Compile Include="MycustomMaster.Master.cs">
       <DependentUpon>MycustomMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -293,6 +362,34 @@
     </Compile>
     <Compile Include="Myusercontrol.ascx.designer.cs">
       <DependentUpon>Myusercontrol.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="NestedColumn3.master.cs">
+      <DependentUpon>NestedColumn3.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NestedColumn3.master.designer.cs">
+      <DependentUpon>NestedColumn3.master</DependentUpon>
+    </Compile>
+    <Compile Include="NestedColumn4.master.cs">
+      <DependentUpon>NestedColumn4.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NestedColumn4.master.designer.cs">
+      <DependentUpon>NestedColumn4.master</DependentUpon>
+    </Compile>
+    <Compile Include="NestedMasterPage.master.cs">
+      <DependentUpon>NestedMasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NestedMasterPage.master.designer.cs">
+      <DependentUpon>NestedMasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="NestedsampleMaster.aspx.cs">
+      <DependentUpon>NestedsampleMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NestedsampleMaster.aspx.designer.cs">
+      <DependentUpon>NestedsampleMaster.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repeater.aspx.cs">
@@ -330,6 +427,20 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -361,11 +472,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Fileupload\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Site1.Master" />
+    <Content Include="Site2.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -378,6 +492,12 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Language.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\WebserviceCalls\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

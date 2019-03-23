@@ -22,9 +22,9 @@ namespace NormalWebformPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           btn.Text = Session["username"].ToString();
+          // btn.Text = Session["username"].ToString();
             // MyClassLibrary.Class1 obj = new 
-            MyClassLibrary.subClassLibary.Class2 obj = new MyClassLibrary.subClassLibary.Class2();
+         //   MyClassLibrary.subClassLibary.Class2 obj = new MyClassLibrary.subClassLibary.Class2();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -65,6 +65,9 @@ namespace NormalWebformPage
                 GridView1.DataSource = ds.Tables["employee"];
                 GridView1.DataBind();
                 GridView1.Visible = true;
+                //ServiceReference1. objmyservice = new ServiceReference1();
+               
+
 
             }
             //ds=   cmd.ExecuteNonQuery

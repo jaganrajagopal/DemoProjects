@@ -8,10 +8,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicNetApps", "BasicNetApps\BasicNetApps.csproj", "{42C83783-48B1-408F-A77F-C2574FE506D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormalWebformPage", "NormalWebformPage\NormalWebformPage.csproj", "{79BD39DF-F6A9-4C4A-8399-1EBE6D7B7056}"
+	ProjectSection(ProjectDependencies) = postProject
+		{62B18007-E900-4948-A897-AAA966BC111F} = {62B18007-E900-4948-A897-AAA966BC111F}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClassLibrary", "MyClassLibrary\MyClassLibrary.csproj", "{FA7ACBF9-61A1-4BB2-85E1-60386A3FAEDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceConsoleApps", "PerformanceConsoleApps\PerformanceConsoleApps.csproj", "{B5C6AD9F-BED7-4869-AEED-C77FC94ECDDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceApps", "WebServiceApps\WebServiceApps.csproj", "{62B18007-E900-4948-A897-AAA966BC111F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +88,18 @@ Global
 		{B5C6AD9F-BED7-4869-AEED-C77FC94ECDDF}.Release|x64.Build.0 = Release|x64
 		{B5C6AD9F-BED7-4869-AEED-C77FC94ECDDF}.Release|x86.ActiveCfg = Release|x86
 		{B5C6AD9F-BED7-4869-AEED-C77FC94ECDDF}.Release|x86.Build.0 = Release|x86
+		{62B18007-E900-4948-A897-AAA966BC111F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B18007-E900-4948-A897-AAA966BC111F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B18007-E900-4948-A897-AAA966BC111F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{62B18007-E900-4948-A897-AAA966BC111F}.Debug|x64.Build.0 = Debug|Any CPU
+		{62B18007-E900-4948-A897-AAA966BC111F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{62B18007-E900-4948-A897-AAA966BC111F}.Debug|x86.Build.0 = Debug|Any CPU
+		{62B18007-E900-4948-A897-AAA966BC111F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B18007-E900-4948-A897-AAA966BC111F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B18007-E900-4948-A897-AAA966BC111F}.Release|x64.ActiveCfg = Release|Any CPU
+		{62B18007-E900-4948-A897-AAA966BC111F}.Release|x64.Build.0 = Release|Any CPU
+		{62B18007-E900-4948-A897-AAA966BC111F}.Release|x86.ActiveCfg = Release|Any CPU
+		{62B18007-E900-4948-A897-AAA966BC111F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

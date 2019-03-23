@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="NormalWebformPage.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <style type="text/css">
+        html
+        {
+
+            background-color:Silver;
+            font:14px Georgia,Serif;
+        }
+        .content
+        {
+            width:700px;
+            margin:auto;
+            border-style:solid;
+            background-color:white;
+            padding:10px;
+        }
+        .tabstrip
+        {
+            padding:3px;
+            border-top:solid 1px black;
+            border-bottom:solid 1px black;
+        }
+        .tabstrip a
+        {
+            font:14px Arial;
+            color:Fuchsia;
+            text-decoration:none;
+        }
+        .column
+        {
+            float:left;
+            padding:10px;
+            border-right:solid 1px black;
+        }
+        .rightColumn
+        {
+            float:left;
+            padding:10px;
+        }
+        .footer
+        {
+            background-color:Lime;
+            border:3px dotted red;
+            text-align:center;
+        }
+        .clear
+        {
+            clear:both;
+        }
+    </style>
+    <title>Website Main Master Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div class="content">
+        <asp:Image
+            id="imgLogo"
+            ImageUrl="~/adds/CSSiteLogo.gif"
+            AlternateText="Logo"
+            Runat="server" />
+
+        <div class="tabstrip">
+        <asp:HyperLink
+            id="lnkProducts"
+            Text="HOME"
+            NavigateUrl="~/Column1_Con_Home.aspx"
+            Runat="server" />
+        &nbsp;|&nbsp;
+        <asp:HyperLink
+            id="lnkServices"
+            Text="FORUM"
+            NavigateUrl="~/Column2_Con_About.aspx"
+            Runat="server" />
+        </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <br class="clear" />
+        <br />
+        <br />
+        <div class="footer">
+        Copyright &copy; 2010 by CompanyName
+        </div>
+    </form>
+</body>
+</html>

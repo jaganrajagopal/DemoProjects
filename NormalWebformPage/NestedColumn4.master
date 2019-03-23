@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="NestedColumn4.master.cs" Inherits="NormalWebformPage.NestedColumn4" %>
+<asp:Content
+    id="Content1"
+    ContentPlaceHolderID="ContentPlaceHolder1"
+    Runat="server">
+    <div class="column">
+        <asp:ContentPlaceHolder
+            id="ContentPlaceHolder1"
+            Runat="server" />
+    </div>
+    <div class="rightColumn">column1
+        <asp:ContentPlaceHolder
+            id="ContentPlaceHolder2"
+            Runat="server" />
+    </div>
+</asp:Content>
