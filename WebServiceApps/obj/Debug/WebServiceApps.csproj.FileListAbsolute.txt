@@ -33,3 +33,4 @@ D:\Projects\DotnetProjectSample\WebServiceApps\obj\Debug\WebServiceApps.csproj.C
 D:\Projects\DotnetProjectSample\WebServiceApps\obj\Debug\WebServiceApps.csproj.CopyComplete
 D:\Projects\DotnetProjectSample\WebServiceApps\obj\Debug\WebServiceApps.dll
 D:\Projects\DotnetProjectSample\WebServiceApps\obj\Debug\WebServiceApps.pdb
+D:\Projects\DotnetProjectSample\WebServiceApps\obj\Debug\WebServiceApps.csprojAssemblyReference.cache
